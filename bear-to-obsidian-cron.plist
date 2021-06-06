@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>bear-to-obsidian</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/newdev/.pyenv/shims/python3</string>
+		<string>/Users/newdev/Hive/Development/personal_projects/bear-to-obsidian/bear-to-obsidian.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartInterval</key>
+  	<integer>300</integer>
+	<key>StandardOutPath</key>
+	<string>/Users/newdev/Hive/Development/personal_projects/bear-to-obsidian/cron-logs/output.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/newdev/Hive/Development/personal_projects/bear-to-obsidian/cron-logs/error.log</string>
+</dict>
+</plist>
