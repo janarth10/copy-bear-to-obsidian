@@ -34,6 +34,10 @@ class BearDb(object):
         return notes
 
 
+# Don't really like this anymore - lazy to find mac Cron file and delete it
+quit()
+
+
 print(f"Last ran { datetime.datetime.now().strftime('%c') }")
 bear_db = BearDb()
 notes = bear_db.all_notes()

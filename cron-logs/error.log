@@ -1,0 +1,11 @@
+/Users/newdev/.pyenv/shims/python3: line 21: /usr/local/Cellar/pyenv/1.2.21/libexec/pyenv: No such file or directory
+Traceback (most recent call last):
+  File "/Users/newdev/Hive/Development/personal_projects/bear-to-obsidian/bear-to-obsidian.py", line 39, in <module>
+    notes = bear_db.all_notes()
+  File "/Users/newdev/Hive/Development/personal_projects/bear-to-obsidian/bear-to-obsidian.py", line 33, in all_notes
+    notes = [Note(self.db, i["Z_PK"]) for i in ids]
+  File "/Users/newdev/Hive/Development/personal_projects/bear-to-obsidian/bear-to-obsidian.py", line 33, in <listcomp>
+    notes = [Note(self.db, i["Z_PK"]) for i in ids]
+  File "/Users/newdev/Hive/Development/personal_projects/bear-to-obsidian/bear-to-obsidian.py", line 12, in __init__
+    (note_id,)).fetchone()
+sqlite3.OperationalError: database is locked
